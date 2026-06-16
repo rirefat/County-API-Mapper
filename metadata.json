@@ -1,0 +1,6 @@
+{
+  "name": "County API Integration Dashboard",
+  "description": "An interactive MVP dashboard showing US County API integration tracking, data visualization, and simulated live endpoint requests.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
