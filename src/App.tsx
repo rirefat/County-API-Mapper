@@ -7,6 +7,7 @@ import APIQuerySandbox from './components/APIQuerySandbox';
 import APIMappingList from './components/APIMappingList';
 import APIMappingForm from './components/APIMappingForm';
 import APILogTicker from './components/APILogTicker';
+import OfficialPortals from './components/OfficialPortals';
 import { ShieldCheck, Info, Sparkles, Network } from 'lucide-react';
 import { motion } from 'motion/react';
 
@@ -216,6 +217,11 @@ export default function App() {
           <div className="lg:col-span-4">
             <APIMappingForm onAddCounty={handleAddCounty} />
           </div>
+        </section>
+
+        {/* Client Verified Real County Portals Directory */}
+        <section>
+          <OfficialPortals />
         </section>
 
         {/* Telemetry trends chart block */}
